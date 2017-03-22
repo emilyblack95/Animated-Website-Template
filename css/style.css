@@ -1,0 +1,14 @@
+.container
+{
+	text-align: center;
+	font-size: 6em;
+	width: 18em;
+	height: 6em;
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
