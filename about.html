@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Author: Emily Black, 03/21/17 -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Emily Black</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/background.css" rel="stylesheet">
+	<link href="css/style2.css" rel="stylesheet">
+	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/type-it.js"></script>
+</head>
+<body>
+	<div id="particles-js"></div>
+	<script src="js/particles.min.js"></script>
+	<script src="js/background.js"></script>
+	
+
+	<div class="container">
+		<span class="type-it" style="color:#00ff00;"></span>
+	</div>
+
+	<script>
+		var first = "Born in Jacksonville, FL in late 1995, I was fortunate enough to grow up with the rapid changes in technology. I got to witness the end of some technologies and the advent of other technologies. The first computer language I learned was HTML - back when MySpace was a thing and you could customize profiles by embedding HTML. This happened at the age of 12. After buffing up a bit on HTML in high school, my first year of college unfolded and Java was the second computer language I learned. Ever since then, I've considered myself devoted to computer science. ❤";
+		var second = "My hobbies include: Exercising • Gaming • Designing • Coding.";
+		var third = "Want to go back <a href='index.html'>home</a>?";
+		$('.type-it').typeIt({
+			strings: [first, second, third]
+		});
+	</script>
+	
+</body>
+</html>
